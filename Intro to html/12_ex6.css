@@ -1,0 +1,17 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family:Arial;
+    text-align: center;
+}
+.shopping{
+font-weight: bold;
+font-size: 32px; 
+}
+.help{
+margin-top:20px ;
+margin-bottom: 20px;
+}
+.learn{
+color: rgb(42, 145, 223);
+}
