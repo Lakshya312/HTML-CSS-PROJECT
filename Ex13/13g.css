@@ -1,0 +1,67 @@
+div{
+    font-family: arial;
+    font-size: 18px;
+}
+.container{
+display: flex;
+flex-direction: row;
+align-items: start;
+width: 480px;
+margin-top: 10px;
+margin-left: 20px;
+}
+.profile-container{
+    margin-right: 15px;
+}
+.profile-picture{
+width: 60px;
+height: 60px;
+object-fit: cover;
+border-radius: 35px;
+}
+.tweet{
+    flex: 1;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.profile-name{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.id{
+    font-weight: normal;
+    color: rgb(123, 129, 134);
+}
+.info{
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.video-box{
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: rgb(221, 220, 220);
+    border-radius: 20px;
+    align-items: center;
+    overflow: hidden;
+}
+.empty-space{
+    width: 97px;
+    height: 97px;
+    background-color: rgb(220, 220, 220);
+    margin-right:15px;
+}
+.video-link-box{
+    flex: 1;
+    margin-top: 14px;
+    margin-bottom: 14px;   
+}
+.info-link{
+    line-height: 22px;
+}
+.link{
+    color:rgb(123, 129, 134);
+}

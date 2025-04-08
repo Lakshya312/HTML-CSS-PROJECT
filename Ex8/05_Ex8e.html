@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>
+    Uber
+</title>
+<style>
+    .title{
+        font-family: Arial;
+        font-size: 35px;
+    }
+    input{
+        width: 300px;
+        font-size: 16px;
+        border: none;
+        background-color: rgb(242, 239, 239);
+        padding-top: 12px;
+        padding-right:18px;
+        padding-bottom:12px ;
+        padding-left: 18px;
+    
+    }
+    .pickup-textbox{
+        margin-bottom: 9px;
+    }
+    .destination-textbox{
+        display: block;
+        margin-bottom: 30px;
+    }
+.request-button{
+    
+        background-color: black;
+        color: white;
+        margin-left: 10px;
+        margin-top: 10px;
+        border: none;
+        padding-top:12px ;
+        padding-bottom:12px ;
+        padding-right:17px;
+        padding-left:17px ;
+        cursor: pointer;  
+        transition: opacity 0.15s;  
+        margin-right: 17px;
+}
+    .request-button:hover{
+        opacity: 0.7;
+    }
+
+.schedule-button{
+    background-color: rgb(238, 237, 237);
+        color: black;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-top:12px ;
+        padding-bottom:12px ;
+        padding-right:17px;
+        padding-left:17px ;
+        border: none;
+        cursor: pointer;  
+        transition: opacity 0.15s;  
+        margin-right: 17px;
+
+}
+
+</style>
+    </head>
+    <body>
+        <p class="title">
+            Request a ride now
+          </p>
+          <input class="pickup-textbox" type="text" placeholder="Enter pickup location">
+          <input class="destination-textbox" type="text" placeholder="Enter destination">
+          <button class="request-button">Request now</button>
+          <button class="schedule-button">Schedule for later</button> 
+    </body>
+</html>

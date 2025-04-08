@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+15f
+</title>
+<style>
+    div{
+    font-family: arial;
+}
+.shirt-container{
+    position: relative;
+    display: inline-block;
+}
+.shirt{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.discount{
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 0;
+    top: 10px;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: white;
+    font-size: 10px;
+    border-width: 1px;
+}
+.button-container{
+    background-color:rgba(225, 225, 225,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+}
+</style>
+</head>
+<body style="height: 1000px;">
+    <div class="shirt-container">
+        <img class="shirt" src="shirt.jpg">
+        <div class="discount">20% OFF</div>
+        <div class="button-container">
+            <button> Add to Cart</button>
+        </div>
+    </div>
+
+</body>
+</html>
